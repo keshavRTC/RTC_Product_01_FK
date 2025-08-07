@@ -1,0 +1,13 @@
+# Backend
+/test-case-generator-backend/node_modules/
+/test-case-generator-backend/.env
+/test-case-generator-backend/package-lock.json
+/test-case-generator-backend/package.json
+
+# Frontend
+/test-case-generator-frontend/node_modules/
+/test-case-generator-frontend/package-lock.json
+/test-case-generator-frontend/package.json
+
+# General
+.DS_Store
