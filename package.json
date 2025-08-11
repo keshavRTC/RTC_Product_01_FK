@@ -13,8 +13,12 @@
   "dev:frontend": "node scripts/start-frontend.js",
   "dev:backend": "npm --prefix test-case-generator-backend run dev",
   "generate:cases": "npm --prefix test-case-generator-backend run generate",
+
   "test:rtctek": "npm --prefix RTCtek_automation_by_playwright run test",
-  "all": "start-server-and-test dev http://localhost:3000 test:rtctek && npm run generate:cases"
+  "test:rtctek:chromium": "npm --prefix RTCtek_automation_by_playwright run test -- --project=chromium",
+  "test:rtctek:headed": "npm --prefix RTCtek_automation_by_playwright run test -- --headed",
+
+  "all": "start-server-and-test dev http://localhost:3000 test:rtctek:chromium && npm run generate:cases"
 },
   "devDependencies": {
     "concurrently": "^8.0.0",

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "node index.js",      
-  "generate": "node main.js",    
-  "test": "echo \"No backend tests yet\" && exit 0"
-},
+    "dev": "node index.js",
+    "generate": "node main.js",
+    "test": "echo \"No backend tests yet\" && exit 0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
