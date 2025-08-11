@@ -1,0 +1,27 @@
+{
+  "name": "rtctek_automation_by_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "npx playwright test",
+  "test:headed": "npx playwright test --headed"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.1",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.1.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.2",
+    "jest": "^30.0.5",
+    "mocha": "^11.7.1",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

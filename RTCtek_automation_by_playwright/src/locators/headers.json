@@ -1,0 +1,130 @@
+{
+  "headers": {
+    "logo": {
+      "text": "",
+      "hrefSlug": "https://rtctek.com/",
+      "hasSubmenu": false
+    },
+    "About Us": {
+      "text": "About Us",
+      "hrefSlug": "/about-us",
+      "hasSubmenu": false
+    },
+    "Services": {
+      "text": "Services",
+      "hrefSlug": "/services",
+      "hasSubmenu": true,
+      "submenu": {
+        "DevopsAutomationServices": {
+          "text": "DevOps Automation Services",
+          "hrefSlug": "/devops-automation-services/"
+        },
+        "devSecOpsConsultingServices": {
+          "text": "DevSecOps Consulting Services",
+          "hrefSlug": "/cloud-devops-consulting"
+        },
+        "accessibilityTesting": {
+          "text": "Accessibility Testing",
+          "hrefSlug": "/accessibility-testing-services"
+        },
+        "usabiltiyTesting": {
+          "text": "Usability Testing",
+          "hrefSlug": "/usability-testing-services/"
+        },
+        "automationTesting": {
+          "text": "Automation Testing",
+          "hrefSlug": "/automation-testing-services"
+        },
+        "securityTesting": {
+          "text": "Security Testing",
+          "hrefSlug": "/security-testing-services"
+        },
+        "mobileTesting": {
+          "text": "Mobile Testing",
+          "hrefSlug": "/mobile-testing-services"
+        },
+        "functionalTesting": {
+          "text": "Functional Testing",
+          "hrefSlug": "/functional-testing-services"
+        },
+        "cloudArchitectureandDesign": {
+          "text": "Cloud Architecture and Design",
+          "hrefSlug": "/cloud-architecture-and-design/"
+        },
+        "cloudSecurityServices": {
+          "text": "Cloud Security Services",
+          "hrefSlug": "/cloud-security-services/"
+        },
+        "mobileAppDevelopment": {
+          "text": "Mobile App Development",
+          "hrefSlug": "/mobile-app-development-services/"
+        },
+        "WebDevelopment": {
+          "text": "Web Development",
+          "hrefSlug": "/web-development-services/"
+        },
+        "dataEngineeringServices": {
+          "text": "Data Engineering Services",
+          "hrefSlug": "/data-engineering-services/"
+        }
+      }
+    },
+    "Industries": {
+      "text": "Industries",
+      "hrefSlug": "/#",
+      "hasSubmenu": true,
+      "submenu": {
+        "EduTech": {
+          "text": "EduTech",
+          "hrefSlug": "/edutech/"
+        },
+        "Media": {
+          "text": "Media",
+          "hrefSlug": "/media-and-entertainment/"
+        },
+        "Healthcare": {
+          "text": "Healthcare",
+          "hrefSlug": "/healthcare/"
+        },
+        "Fintech": {
+          "text": "Fintech",
+          "hrefSlug": "/fintech/"
+        },
+        "Retail": {
+          "text": "Retail",
+          "hrefSlug": "/retail/"
+        },
+        "Government": {
+          "text": "Government",
+          "hrefSlug": "/government/"
+        }
+      }
+    },
+    "Knowledge Center": {
+      "text": "Knowledge Center",
+      "hrefSlug": "blogs",
+      "hasSubmenu": true,
+      "submenu": {
+        "Case Studies": {
+          "text": "Case Studies",
+          "hrefSlug": "/case-study"
+        }
+      }
+    },
+    "Get A Quote": {
+      "text": "Get a Quote",
+      "hrefSlug": "get-a-quote",
+      "hasSubmenu": false
+    },
+    "Apply Now": {
+      "text": "Apply Now",
+      "hrefSlug": "apply-now",
+      "hasSubmenu": false
+    },
+    "Contact Us": {
+      "text": "Contact Us",
+      "hrefSlug": "contact-us",
+      "hasSubmenu": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "headers" : {
+    "cloudSolutions" : {
+        "text" : "Clouds Solution",
+        "hrefSlug" : "devops-solutions/" 
+    },
+    "qualityAssurance" : {
+        "text" : "Quality Assurance",
+        "hrefSlug" : "quality-assurance/"
+    },
+    "softwareDevelopment" : {
+        "text" : "Software Development",
+        "hrefSlug" : "software-development/"
+    },
+    "contactUs" : {
+        "text" : "Contact Us",
+        "hrefSlug" : "contact-us/"
+    },
+    "blog" : {
+        "text" : "Blog",
+        "hrefSlug" : "blogs/"
+    },
+    "applynow" : {
+        "text" : "Apply Now",
+        "hrefSlug" : "apply-now"
+    },
+    "privacyPolicy" : {
+        "text" : "Privacy Policy",
+        "hrefSlug" : "privacy-policy/"
+    }
+}
+
+
+}
