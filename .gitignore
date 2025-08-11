@@ -2,12 +2,23 @@
 /test-case-generator-backend/node_modules/
 /test-case-generator-backend/.env
 /test-case-generator-backend/package-lock.json
-/test-case-generator-backend/package.json
 
 # Frontend
 /test-case-generator-frontend/node_modules/
 /test-case-generator-frontend/package-lock.json
-/test-case-generator-frontend/package.json
+
+# Playwright
+/RTCtek_automation_by_playwright/node_modules/
+/RTCtek_automation_by_playwright/.env
+/RTCtek_automation_by_playwright/package-lock.json
+/RTCtek_automation_by_playwright/allure-report
+/RTCtek_automation_by_playwright/test-results/
+/RTCtek_automation_by_playwright/playwright-report/
+/RTCtek_automation_by_playwright/allure-results/
+
+# Root
+/node_modules/
+/.env
 
 # General
 .DS_Store

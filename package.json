@@ -1,0 +1,25 @@
+{
+  "name": "rtcproject1",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "test-case-generator-frontend",
+    "test-case-generator-backend",
+    "RTCtek_automation_by_playwright"
+  ],
+  "scripts": {
+  "install:all": "npm install",
+  "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+  "dev:frontend": "node scripts/start-frontend.js",
+  "dev:backend": "npm --prefix test-case-generator-backend run dev",
+  "generate:cases": "npm --prefix test-case-generator-backend run generate",
+  "test:rtctek": "npm --prefix RTCtek_automation_by_playwright run test",
+  "all": "start-server-and-test dev http://localhost:3000 test:rtctek && npm run generate:cases"
+},
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "cross-env": "^10.0.0",
+    "detect-port": "^2.1.0",
+    "start-server-and-test": "^2.0.13"
+  }
+}
